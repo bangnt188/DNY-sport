@@ -10,7 +10,7 @@ interface Category {
   image: string;
   slug: string;
 }
-
+// fake data
 const categories: Category[] = [
   {
     id: "1",
