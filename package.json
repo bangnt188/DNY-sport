@@ -81,4 +81,9 @@
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
   }
+"homepage": "https://bangnt188.github.io/DNY-sport/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 }
